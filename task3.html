@@ -46,6 +46,36 @@
                 </tr>
             </tbody>
         </table>
+
+        <!-- Feedback Form -->
+        <form>
+            <h3 id="heading3">Feedback Form</h3>
+            
+            <label for="name">Name</label>
+            <input id="name" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" type="email" required />
+
+            <label for="role">Role</label>
+            <select id="role">
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Other</option>
+            </select>
+
+            <label>Do you like this page?</label>
+            <label for="yes">Yes</label>
+            <input type="radio" name="answer" id="yes" value="yes" />
+
+            <label for="no">No</label>
+            <input type="radio" name="answer" id="no" value="no" />
+
+            <label for="comments">Comments</label>
+            <textarea id="comments" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
     </div>
 
     <footer>
